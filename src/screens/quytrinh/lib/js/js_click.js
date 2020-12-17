@@ -1,0 +1,28 @@
+$(document).ready(function(){
+    $("#toggle-menu").click(function(){
+        $("#main-menu").css({
+            "display":"block"
+        })
+        $("#toggle-menu").css({
+            "display":"none"
+        })
+        $("#black-screen").css({
+            "display":"block"
+        })
+
+    })
+    $(".btn-hide").click(function(){
+        $("#main-menu").css({
+            "display":"none"
+        })
+        $("#toggle-menu").css({
+            "display":"inline"
+        })
+        $("#black-screen").css({
+            "display":"none"
+        })
+        $(".nav-mobile").css({
+            "padding-left":0
+        })
+    })
+});

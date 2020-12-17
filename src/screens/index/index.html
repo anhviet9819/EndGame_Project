@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Medpro - Đăng ký khám bệnh online</title>
+
+    <link rel="shortcut icon" href=" img/logo_test.png" type="image/x-icon" />
+
+    <!-- CSS Bootstrap only -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    />
+
+    <!--    CSS    -->
+    <link rel="stylesheet" href=" css/style.css" />
+    <link rel="stylesheet" href=" css/media.css" />
+
+    <!--       Script     -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/f354a345da.js"></script>
+  </head>
+
+  <body>
+    <div id="page">
+      <div class="inner_page">
+        <div class="">
+          <header class="header">
+            <nav class="nav_top">
+              <ul class="support">
+                <li>
+                  <a href="#"
+                    ><i class="fas fa-phone-volume"></i> Hỗ trợ chuyên môn:
+                    1900-7178</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fas fa-phone-volume"></i> Hỗ trợ kỹ thuật:
+                    1900-2267</a
+                  >
+                </li>
+                <li>
+                  <a href="#"><i class="fas fa-sign-in-alt"></i> Đăng nhập</a>
+                </li>
+              </ul>
+            </nav>
+
+            <nav class="nav navbar navbar-expand-lg navbar-light bg-light">
+              <a href="#" class="navbar-brand"
+                ><img
+                  src=" img/logo_test.png"
+                  alt="logo.png"
+                  style="height: 55px; margin-left: 61px; margin-top: -30px"
+                />
+                <div class="dhyd_logo" class="slogan">
+                  <span class="style_1"
+                    >BỆNH VIỆN ĐẠI HỌC Y DƯỢC TP.HCM<sup>®</sup></span
+                  >
+                  <span class="style_2">UNIVERSITY MEDICAL CENTER HCMC</span>
+                  <span class="style_3"
+                    >Tiên phong - Thấu hiểu - Chuẩn mực - An toàn</span
+                  >
+                </div>
+              </a>
+              <!-- hiển thị khi co nhỏ màn hình -->
+              <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navb">
+                            <span class="navbar-toggler-icon"></span>
+                        </button> -->
+              <button
+                class="navbar-toggler navbar-toggler-right"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navb"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navb">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">TRANG CHỦ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">GIỚI THIỆU</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">QUY TRÌNH</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">HƯỚNG DẪN SỬ DỤNG</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">THẮC MẮC</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">LIÊN HỆ</a>
+                  </li>
+                  <li class="select_service nav-item">
+                    <div class="dropdown">
+                      <button
+                        class="btn dropdown-toggle"
+                        type="button"
+                        data-toggle="dropdown"
+                      >
+                        CHỌN DỊCH VỤ <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">ĐẶT LỊCH THEO BÁC SĨ</a></li>
+                        <hr />
+                        <li><a href="#">ĐẶT LỊCH THEO NGÀY</a></li>
+                        <hr />
+                        <li><a href="#">LỊCH TÁI KHÁM</a></li>
+                        <hr />
+                        <li><a href="#">THANH TOÁN VIỆN PHÍ NỘI TRÚ</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </header>
+
+          <div class="main">
+            <div class="inner_main">
+              <div class="main_top">
+                <div class="alert alert-dismissible">
+                  <button type="button" class="close" data-dismiss="alert">
+                    &times;
+                  </button>
+                  <p>
+                    <strong style="font-size: 18px; color: #004085"
+                      >Thông báo !</strong
+                    >
+                  </p>
+                  <hr />
+                  <p style="font-size: 14px">
+                    Từ ngày <strong style="color: #004085">1/6/2019</strong>,
+                    Người bệnh không BHYT sau khi đặt khám thành công trên
+                    Web/App sẽ đến trực tiếp phòng khám trước giờ hẹn 15-30 phút
+                    để khám bệnh mà không cần phải in phiếu giấy tại kios hoặc
+                    quầy tiếp nhận !
+                  </p>
+                </div>
+                <section class="section_1 screen_slide">
+                  <div
+                    id="myCarousel"
+                    class="carousel slide"
+                    data-ride="carousel"
+                  >
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          class="d-block w-100"
+                          src=" img/screen_slide/1529906632.jpg"
+                          alt="1"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block w-100"
+                          src=" img/screen_slide/1530088265.jpg"
+                          alt="2"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block w-100"
+                          src=" img/screen_slide/1530088286.jpg"
+                          alt="3"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block w-100"
+                          src=" img/screen_slide/1530088303.jpg"
+                          alt="4"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block w-100"
+                          src=" img/screen_slide/1530088322.jpg"
+                          alt="5"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="list_dv">
+                    <ul>
+                      <li><a href="#">KHÁM THEO BÁC SĨ</a></li>
+                      <li><a href="#">KHÁM THEO NGÀY</a></li>
+                      <li><a href="#">LỊCH TÁI KHÁM</a></li>
+                      <li><a href="#">THANH TOÁN VIỆN PHÍ NỘI TRÚ</a></li>
+                    </ul>
+                  </div>
+                </section>
+
+                <section class="section_2 Q_A">
+                  <div class="row">
+                    <div class="search_info col-md-6">
+                      <a href="#">
+                        <h3>TRA CỨU THÔNG TIN</h3>
+                        <p>
+                          Tra cứu thông tin đặt chỗ, thông tin bệnh nhân, lịch
+                          khám
+                        </p>
+                      </a>
+                      <button type="button" class="btn pos_right">
+                        Tra cứu
+                      </button>
+                    </div>
+
+                    <div class="trouble col-md-6">
+                      <a href="#">
+                        <h3>NHỮNG VẤN ĐỀ THƯỜNG GẶP</h3>
+                        <ul class="trouble_list">
+                          Tìm hiểu những vấn đề thường gặp, trong quá trình khám
+                          & tái khám
+                          <li class="trouble_1">Quản lý thông tin bệnh nhân</li>
+                          <li class="trouble_2">
+                            Quy trình khám bệnh & nhận phiếu khám bệnh
+                          </li>
+                          <li class="trouble_3">Hoàn tất thanh toán</li>
+                        </ul>
+                        <p class="pos_right">Xem thêm</p>
+                      </a>
+                    </div>
+                  </div>
+                </section>
+
+                <section class="section_3 app_mobile_download">
+                  <div class="container">
+                    <div class="mg-lg-auto app_title">
+                      <p>TẢI ỨNG DỤNG <strong>UMC</strong></p>
+                    </div>
+                    <div class="row app_method">
+                      <div class="col-6 app_ios">
+                        <a href="#"
+                          ><img src=" img/homepage/app-store.svg" alt="app_ios"
+                        /></a>
+                      </div>
+                      <div class="col-6 app_android">
+                        <a href="#"
+                          ><img
+                            src=" img/homepage/googleplay-btn.svg"
+                            alt="app_android"
+                        /></a>
+                      </div>
+                    </div>
+                    <div class="app_content">
+                      <ul class="row">
+                        <li class="col-4 list_one">
+                          <div>
+                            <span
+                              >Chủ động đặt lịch khám trong vòng 1 phút</span
+                            >
+                            <img
+                              src=" img/homepage/calendar.svg"
+                              alt="calendar"
+                            />
+                          </div>
+                          <div>
+                            <span>Thay đổi & cập nhật lịch khám bệnh</span>
+                            <img
+                              src=" img/homepage/add-event.svg"
+                              alt="add-event"
+                            />
+                          </div>
+                          <div>
+                            <span>Đặt lịch nhắc nhở uống thuốc</span>
+                            <img
+                              src=" img/homepage/medicine.svg"
+                              alt="medicine"
+                            />
+                          </div>
+                        </li>
+                        <li class="col-4 list_two">
+                          <img
+                            src=" img/slide/bg-slide-mobile.png"
+                            alt="bg-slide-mobile"
+                          />
+                          <div
+                            id="myCarousel"
+                            class="carousel slide"
+                            data-ride="carousel"
+                          >
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img
+                                  class="d-block"
+                                  src=" img/slide/mobile_home/01.png"
+                                  alt=""
+                                />
+                              </div>
+                              <div class="carousel-item">
+                                <img
+                                  class="d-block"
+                                  src=" img/slide/mobile_home/02.png"
+                                  alt=""
+                                />
+                              </div>
+                              <div class="carousel-item">
+                                <img
+                                  class="d-block"
+                                  src=" img/slide/mobile_home/03.png"
+                                  alt="k"
+                                />
+                              </div>
+                              <div class="carousel-item">
+                                <img
+                                  class="d-block"
+                                  src=" img/slide/mobile_home/04.png"
+                                  alt=""
+                                />
+                              </div>
+                              <div class="carousel-item">
+                                <img
+                                  class="d-block"
+                                  src=" img/slide/mobile_home/05.png"
+                                  alt=""
+                                  w
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="col-4 list_three">
+                          <div class="group">
+                            <img src=" img/homepage/organic.svg" alt="" />
+                            <span>Giao diện thân thiện dễ sử dụng</span>
+                          </div>
+                          <div class="group">
+                            <img src=" img/homepage/pay.svg" alt="pay" />
+                            <span>Thanh toán nhanh chóng và tiện lợi</span>
+                          </div>
+                          <div class="group">
+                            <img src=" img/homepage/care.svg" alt="care" />
+                            <span
+                              >Lưu trữ và theo dõi hồ sơ sức khỏe của bạn</span
+                            >
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </section>
+              </div>
+              <div
+                style="
+                  max-width: 100%;
+                  border-top: 5px solid #e9ecef;
+                  margin-bottom: 150px;
+                "
+              ></div>
+
+              <div class="main_bottom">
+                <section class="section_4">
+                  <div class="method-support">
+                    <span>Hỗ trợ</span>
+                    <h2>Các hình thức hỗ trợ từ UCM đặt khám</h2>
+                    <p>Bệnh nhân chọn các hình thức bên dưới</p>
+                  </div>
+                  <div class="row">
+                    <div class="col-md">
+                      <a href="#"
+                        ><img
+                          src=" img/suport_tab/hospital.svg"
+                          alt="hospital"
+                        />
+                        <p class="style_text">Hỗ trợ chuyên môn</p>
+                        <p class="style_number">1900-7178</p>
+                      </a>
+                    </div>
+                    <div class="col-md">
+                      <a href="#"
+                        ><img
+                          src=" img/suport_tab/phone-receiver.svg"
+                          alt="phone-receiver"
+                        />
+                        <p class="style_text">Hỗ trợ kỹ thuật</p>
+                        <p class="style_number">1900-2267</p>
+                      </a>
+                    </div>
+                    <div class="col-md">
+                      <a href="#"
+                        ><img
+                          src=" img/suport_tab/facebook-circular.svg"
+                          alt="ffacebook"
+                        />
+                        <p class="style_text">Fanpage Facebook</p>
+                        <p class="style_number">Bấm vào đây</p>
+                      </a>
+                    </div>
+                    <div class="col-md">
+                      <a href=""
+                        ><img src=" img/suport_tab/zalo.umc.jpg" alt="umc" />
+                        <p class="style_text">Hỗ trợ Zalo</p>
+                        <p class="style_number">Bấm vào đây</p>
+                      </a>
+                    </div>
+                    <div class="col-md">
+                      <a href="#"
+                        ><img
+                          src=" img/suport_tab/umc_mess_fb.png"
+                          alt="zalo"
+                        />
+                        <p class="style_text">Chat Facebook</p>
+                        <p class="style_number">Bấm vào đây</p>
+                      </a>
+                    </div>
+                  </div>
+                </section>
+              </div>
+
+              <aside class="contact-info scroll">
+                <div class="collapse">
+                  <a class="up-to-top" href="#"
+                    ><i class="fas fa-arrow-circle-up"></i
+                  ></a>
+                  <a class="mailbox" href="#"
+                    ><i class="fas fa-envelope"></i
+                  ></a>
+                  <a class="phone-contact" href="#">
+                    <div>
+                      <i class="fas fa-phone-square"></i>
+                      <span>Hotline</span>
+                      <span class="phonenumber">19002267</span>
+                    </div>
+                  </a>
+                </div>
+                <a class="btn-navigation js_click"
+                  ><i class="fas fa-angle-double-right"></i
+                ></a>
+              </aside>
+            </div>
+          </div>
+
+          <footer class="footer">
+            <div class="inner_footer">
+              <div class="footer-top">
+                <div class="footer_main row">
+                  <div class="col-md-5 column-1">
+                    <img src=" img/logo_test.png" alt="logo" />
+                    <span>
+                      <h6>BỆNH VIỆN ĐẠI HỌC Y DƯỢC TP.HCM<sup>®</sup></h6>
+                      <a href="#">215 Hồng Bàng, P.11, Q.5, HCM</a>
+                      <br />
+                      <a href="#">ĐT: (028) 3855 4269</a>
+                      <br />
+                      <p>www.bvdaihoc.com.vn</p>
+                    </span>
+                  </div>
+                  <div class="col-md-3 column-2">
+                    <ul>
+                      <li><a href="#">Liên hệ</a></li>
+                      <li><a href="#">Hỏi đáp</a></li>
+                      <li><a href="#">Điều khoản dịch vụ</a></li>
+                      <li><a href="#">Chính sách bảo mật</a></li>
+                      <li><a href="#">Quy định sử dụng</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4 column-3">
+                    <a href="#"
+                      ><img
+                        src=" img/footer/bocongthuong.png"
+                        alt="bocongthuong"
+                    /></a>
+                    <a href="#"
+                      ><img
+                        src=" img/footer/20150827110756-dadangky.png"
+                        alt="20150827110756-dadangky"
+                    /></a>
+                    <a href="#" class="in-row"
+                      ><img
+                        src=" img/footer/medpro-white.svg"
+                        alt="medpro-white"
+                    /></a>
+                    <a href="#"
+                      ><img src=" img/homepage/app-store.svg" alt="app-store"
+                    /></a>
+                    <a href="#"
+                      ><img
+                        src=" img/homepage/googleplay-btn.svg"
+                        alt="googleplay-btn"
+                    /></a>
+                  </div>
+                </div>
+
+                <div class="row footer_licence">
+                  © 2018 - Bản quyền thuộc Công Ty Cổ Phần Ứng Dụng PKH <br />
+                  Giấy CNĐKDN số 0314886357, do Sở Kế Hoạch và Đầu Tư Tp Hồ Chí
+                  Minh - cấp ngày 21/01/2019. <br />
+                  Trụ sở: 97 Trần Quang Diệu, phường 14, quận 3, Tp Hồ Chí Minh.
+                  <br />
+                  Điện thoại: (028) 710 78098
+                </div>
+              </div>
+
+              <div class="footer_aside">
+                <div class="">
+                  <nav>
+                    <ul>
+                      <li><a href="#">TRANG CHỦ</a></li>
+                      <li><a href="#">GIỚI THIỆU</a></li>
+                      <li><a href="#">QUY TRÌNH</a></li>
+                      <li><a href="#">THẮC MẮC</a></li>
+                      <li><a href="#">LIÊN HỆ</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <div class="fixed">
+              <i class="fas fa-keyboard"></i>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <script>
+      $(document).ready(function () {
+        $(window).scroll(function (event) {
+          var pos_body = $("html,body").scrollTop();
+          if (pos_body > 50) {
+            $(".scroll").addClass("contact-info");
+          } else {
+            $(".scroll").removeClass("contact-info");
+          }
+        });
+        $(".scroll").click(function (event) {
+          $("html,body").animate({ scrollTop: 0 }, 400);
+        });
+      });
+    </script>
+    <script src="js/scroll-to-top.js"></script>
+    <script src=" js/click.js"></script>
+  </body>
+</html>

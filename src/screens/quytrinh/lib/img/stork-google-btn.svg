@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="504px" height="152px" viewBox="0 0 504 152" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>stork-google-btn</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-55.000000, -248.000000)">
+            <g id="stork-google-btn" transform="translate(55.000000, 248.000000)">
+                <rect id="Rectangle-Copy" stroke="#A6A6A6" stroke-width="3" fill="#000000" fill-rule="nonzero" x="1.5" y="1.5" width="501" height="149" rx="15"></rect>
+                <g id="Group" transform="translate(144.000000, 28.000000)" fill="#FFFFFF" font-family="GoogleSans-Regular, Google Sans" font-weight="normal">
+                    <text id="Tải-ứng-dụng-UMC" font-size="20">
+                        <tspan x="0.428398437" y="19">T</tspan>
+                        <tspan x="11.2083984" y="19" font-family="LucidaGrande, Lucida Grande">Ả</tspan>
+                        <tspan x="25.0072266" y="19">I </tspan>
+                        <tspan x="34.5272266" y="19" font-family="LucidaGrande, Lucida Grande">Ứ</tspan>
+                        <tspan x="49.6541797" y="19">NG D</tspan>
+                        <tspan x="98.7741797" y="19" font-family="LucidaGrande, Lucida Grande">Ụ</tspan>
+                        <tspan x="112.631602" y="19">NG </tspan>
+                        <tspan x="147.691602" y="19" font-family="GoogleSans-Bold, Google Sans" font-weight="bold">UMC</tspan>
+                    </text>
+                    <text id="Google-Play" font-size="55" letter-spacing="1.145833">
+                        <tspan x="0.0929185" y="80">Google Play</tspan>
+                    </text>
+                </g>
+                <g id="google-play" transform="translate(47.000000, 37.000000)" fill-rule="nonzero">
+                    <path d="M41.4757115,38.3385575 L2.8511501,76.9631189 C1.00475634,75.2165302 0.00670565302,72.8212086 0.00670565302,70.2262768 L0.00670565302,9.64460039 C0.00670565302,6.99976608 1.05465887,4.60444444 2.95095517,2.80795322 L41.4757115,38.3385575 Z" id="Shape" fill="#2196F3"></path>
+                    <path d="M74.8605068,39.9354386 C74.8605068,43.428616 72.9642105,46.5225731 69.8203509,48.2691618 L58.8417934,54.357271 L45.2184016,41.7818324 L41.4757115,38.3385575 L55.8975439,23.9167251 L69.8203509,31.6017154 C72.9642105,33.3483041 74.8605068,36.4422612 74.8605068,39.9354386 Z" id="Shape" fill="#FFC107"></path>
+                    <path d="M41.4757115,38.3385575 L2.95095517,2.80795322 C3.44998051,2.30892788 4.09871345,1.85980507 4.74744639,1.4605848 C7.89130604,-0.435711501 11.6838986,-0.485614035 14.9275634,1.31087719 L55.8975439,23.9167251 L41.4757115,38.3385575 Z" id="Shape" fill="#4CAF50"></path>
+                    <path d="M58.8417934,54.357271 L14.9275634,78.56 C13.3805848,79.4582456 11.6339961,79.8574659 9.93730994,79.8574659 C8.14081871,79.8574659 6.34432749,79.4083431 4.74744639,78.4102924 C4.04881092,78.0110721 3.40007797,77.5120468 2.8511501,76.9631189 L41.4757115,38.3385575 L45.2184016,41.7818324 L58.8417934,54.357271 Z" id="Shape" fill="#F44336"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
